@@ -2,7 +2,7 @@ import { Sparkles } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#1e3a8a] via-[#0369a1] to-[#0891b2] text-white px-4 pt-24 pb-16">
+    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#1e3a8a] via-[#0369a1] to-[#0891b2] text-white px-4 py-16">
       <div className="container mx-auto text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-500 rounded-full mb-8 animate-pulse">
           <Sparkles className="w-5 h-5" />
