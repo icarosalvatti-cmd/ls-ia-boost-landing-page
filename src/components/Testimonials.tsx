@@ -1,5 +1,3 @@
-import { Quote } from "lucide-react";
-
 export const Testimonials = () => {
   return (
     <section className="py-20 px-4 bg-gradient-to-br from-cyan-50 to-blue-50">
@@ -10,8 +8,7 @@ export const Testimonials = () => {
         
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-white p-8 rounded-lg shadow-lg">
-            <Quote className="w-12 h-12 text-cyan-600 mb-4" />
-            <p className="text-lg text-gray-700 mb-6">
+            <p className="text-lg text-gray-700 mb-6 italic">
               "Depois da automação da LS Conecta, nossas consultas praticamente dobraram. A secretária de IA é tão natural que os pacientes nem percebem que é automatizado."
             </p>
             <div className="border-t pt-4">
@@ -21,8 +18,7 @@ export const Testimonials = () => {
           </div>
           
           <div className="bg-white p-8 rounded-lg shadow-lg">
-            <Quote className="w-12 h-12 text-cyan-600 mb-4" />
-            <p className="text-lg text-gray-700 mb-6">
+            <p className="text-lg text-gray-700 mb-6 italic">
               "O suporte da equipe é impecável. Hoje não preciso me preocupar com agendamentos e posso dedicar mais tempo aos tratamentos."
             </p>
             <div className="border-t pt-4">

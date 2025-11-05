@@ -7,7 +7,7 @@ export const Header = () => {
         <img 
           src={logo} 
           alt="LS Conecta" 
-          className="h-12 md:h-14"
+          className="h-16 md:h-20"
         />
       </div>
     </header>
