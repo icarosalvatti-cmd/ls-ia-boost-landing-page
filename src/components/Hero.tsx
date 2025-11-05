@@ -1,9 +1,16 @@
 import { Sparkles } from "lucide-react";
+import logo from "@/assets/logo-ls-conecta.png";
 
 export const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#1e3a8a] via-[#0369a1] to-[#0891b2] text-white px-4 py-16">
       <div className="container mx-auto text-center">
+        <img 
+          src={logo} 
+          alt="LS Conecta" 
+          className="h-24 md:h-32 mx-auto mb-8"
+        />
+        
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-500 rounded-full mb-8 animate-pulse">
           <Sparkles className="w-5 h-5" />
           <span className="font-semibold text-sm md:text-base">APENAS 5 VAGAS DISPONÍVEIS ESTE MÊS</span>
