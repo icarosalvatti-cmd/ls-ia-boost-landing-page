@@ -8,7 +8,7 @@ export const Hero = () => {
         <img 
           src={logo} 
           alt="LS Conecta" 
-          className="h-24 md:h-32 mx-auto mb-8"
+          className="h-48 md:h-64 mx-auto mb-8"
         />
         
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-500 rounded-full mb-8 animate-pulse">
