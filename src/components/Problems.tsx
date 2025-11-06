@@ -14,7 +14,7 @@ export const Problems = () => {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="bg-red-50 p-8 rounded-lg border-2 border-red-200">
             <AlertTriangle className="w-12 h-12 text-red-500 mb-4" />
-            <h3 className="text-xl font-bold mb-3 text-gray-900">Perdendo Leads Todos os Dias</h3>
+            <h3 className="text-xl font-bold mb-3 text-gray-900">Perdendo pacientes todos os dias</h3>
             <p className="text-gray-700">
               Pessoas interessadas somem porque a resposta demora. Enquanto você não responde, elas já marcaram com seu concorrente.
             </p>
@@ -22,7 +22,7 @@ export const Problems = () => {
           
           <div className="bg-orange-50 p-8 rounded-lg border-2 border-orange-200">
             <Clock className="w-12 h-12 text-orange-500 mb-4" />
-            <h3 className="text-xl font-bold mb-3 text-gray-900">Tempo Desperdiçado no WhatsApp</h3>
+            <h3 className="text-xl font-bold mb-3 text-gray-900">Tempo desperdiçado no WhatsApp</h3>
             <p className="text-gray-700">
               Horas por dia respondendo as mesmas perguntas, tirando dúvidas e tentando encaixar horários na agenda.
             </p>
@@ -30,7 +30,7 @@ export const Problems = () => {
           
           <div className="bg-yellow-50 p-8 rounded-lg border-2 border-yellow-200">
             <Calendar className="w-12 h-12 text-yellow-600 mb-4" />
-            <h3 className="text-xl font-bold mb-3 text-gray-900">Agenda com Buracos</h3>
+            <h3 className="text-xl font-bold mb-3 text-gray-900">Agenda cheia de buracos</h3>
             <p className="text-gray-700">
               Faltas, cancelamentos de última hora e pacientes que não confirmam. Seu tempo e dinheiro indo embora.
             </p>

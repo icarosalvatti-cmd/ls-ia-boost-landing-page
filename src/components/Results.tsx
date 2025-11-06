@@ -21,7 +21,7 @@ export const Results = () => {
           
           <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg text-center">
             <MessageSquare className="w-16 h-16 text-cyan-300 mx-auto mb-4" />
-            <div className="text-5xl font-bold text-cyan-300 mb-2">15.000+</div>
+            <div className="text-5xl font-bold text-cyan-300 mb-2">+15.000</div>
             <div className="text-xl font-semibold mb-1">Mensagens Automatizadas</div>
             <div className="text-cyan-200">por mês</div>
           </div>

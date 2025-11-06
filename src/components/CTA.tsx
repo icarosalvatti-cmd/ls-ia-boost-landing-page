@@ -35,21 +35,21 @@ export const CTA = () => {
           </div>
         </div>
         
-        <a 
+        <a
           href="https://wa.me/5531990638328?text=Ol%C3%A1!%20Quero%20conhecer%20a%20demonstra%C3%A7%C3%A3o%20gratuita%20da%20LS%20Conecta"
-          className="inline-block bg-cyan-500 hover:bg-cyan-600 text-white font-bold px-8 py-4 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg mb-8"
+          className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg mb-8"
           target="_blank"
           rel="noopener noreferrer"
         >
-          SOLICITAR DEMONSTRAÇÃO GRATUITA AGORA
+          AGENDAR DEMONSTRAÇÃO AGORA
         </a>
         
         <div className="border-t border-gray-300 pt-8">
           <p className="text-gray-700 mb-2">Atendimento Imediato via WhatsApp:</p>
-          <div className="flex items-center justify-center gap-2 text-2xl font-bold text-cyan-600 mb-4">
+          <a href="https://wa.me/5531990638328?text=Ol%C3%A1!%20Quero%20conhecer%20a%20demonstra%C3%A7%C3%A3o%20gratuita%20da%20LS%20Conecta" className="flex items-center justify-center gap-2 text-2xl font-bold text-cyan-600 mb-4 hover:text-cyan-700 transition-colors" target="_blank" rel="noopener noreferrer">
             <Phone className="w-6 h-6" />
             (31) 9 9063-8328
-          </div>
+          </a>
           <a 
             href="https://instagram.com/lsconecta.ia" 
             target="_blank" 
