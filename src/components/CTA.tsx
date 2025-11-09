@@ -6,7 +6,7 @@ export const CTA = () => {
       <div className="container mx-auto max-w-4xl text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-500 text-white rounded-full mb-8">
           <Sparkles className="w-5 h-5" />
-          <span className="font-semibold">VAGAS LIMITADAS - APENAS 5 POR MÊS</span>
+          <span className="font-semibold">ÚLTIMAS VAGAS DE 2025</span>
         </div>
         
         <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">
@@ -37,7 +37,7 @@ export const CTA = () => {
         
         <a
           href="https://wa.me/5531990638328?text=Ol%C3%A1!%20Quero%20conhecer%20a%20demonstra%C3%A7%C3%A3o%20gratuita%20da%20LS%20Conecta"
-          className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg mb-8"
+          className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-2xl animate-pulse mb-8"
           target="_blank"
           rel="noopener noreferrer"
         >

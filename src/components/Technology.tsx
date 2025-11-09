@@ -42,9 +42,9 @@ export const Technology = () => {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div className="flex justify-center order-2 md:order-1">
-            <img 
-              src={doctorSuccessImage} 
-              alt="Médico satisfeito com agendamentos automatizados" 
+            <img
+              src={doctorSuccessImage}
+              alt="Médico satisfeito com agendamentos automatizados"
               className="rounded-lg shadow-2xl w-full max-w-md"
             />
           </div>
@@ -58,6 +58,17 @@ export const Technology = () => {
           </div>
         </div>
 
+        <div className="text-center mb-20">
+          <a
+            href="https://wa.me/5531990638328?text=Ol%C3%A1!%20Quero%20conhecer%20a%20demonstra%C3%A7%C3%A3o%20gratuita%20da%20LS%20Conecta"
+            className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            AGENDAR DEMONSTRAÇÃO AGORA
+          </a>
+        </div>
+
         <div className="bg-gradient-to-br from-blue-900 to-cyan-700 text-white p-8 md:p-12 rounded-2xl shadow-2xl grid md:grid-cols-2 gap-8 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -68,9 +79,9 @@ export const Technology = () => {
             </p>
           </div>
           <div className="flex justify-center">
-            <img 
-              src={aiNetworkImage} 
-              alt="Rede neural de inteligência artificial" 
+            <img
+              src={aiNetworkImage}
+              alt="Rede neural de inteligência artificial"
               className="rounded-lg shadow-xl w-full max-w-sm"
             />
           </div>

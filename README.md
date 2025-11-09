@@ -1,22 +1,38 @@
-# Welcome to your Lovable project
+# LS Conecta - Secretária IA Humanizada
 
-## Project info
+Este é um projeto de landing page para o LS Conecta, uma secretária IA humanizada.
 
-**URL**: https://lovable.dev/projects/f56c589d-e6c8-4b79-906d-6409beb898b9
+## Como editar este código?
 
-## How can I edit this code?
+Existem várias maneiras de editar sua aplicação.
 
-There are several ways of editing your application.
+**Use seu IDE preferido**
 
-**Use Lovable**
+Clone este repositório e faça push das mudanças. As mudanças enviadas também serão refletidas no projeto.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f56c589d-e6c8-4b79-906d-6409beb898b9) and start prompting.
+O único requisito é ter Node.js & npm instalados - [instalar com nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Changes made via Lovable will be committed automatically to this repo.
+Siga estes passos:
 
-**Use your preferred IDE**
+```sh
+# Passo 1: Clone o repositório usando a URL Git do projeto.
+git clone <SUA_URL_GIT>
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# Passo 2: Navegue para o diretório do projeto.
+cd <NOME_DO_SEU_PROJETO>
+
+# Passo 3: Instale as dependências necessárias.
+npm i
+
+# Passo 4: Inicie o servidor de desenvolvimento com recarregamento automático e preview instantâneo.
+npm run dev
+```
+
+**Edite um arquivo diretamente no GitHub**
+
+- Navegue para o(s) arquivo(s) desejado(s).
+- Clique no botão "Edit" (ícone de lápis) no topo direito da visualização do arquivo.
+- Faça suas mudanças e commit as mudanças.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -36,23 +52,23 @@ npm i
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+**Edite um arquivo diretamente no GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Navegue para o(s) arquivo(s) desejado(s).
+- Clique no botão "Edit" (ícone de lápis) no topo direito da visualização do arquivo.
+- Faça suas mudanças e commit as mudanças.
 
 **Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Navegue para a página principal do seu repositório.
+- Clique no botão "Code" (botão verde) próximo ao topo direito.
+- Selecione a aba "Codespaces".
+- Clique em "New codespace" para lançar um novo ambiente Codespace.
+- Edite arquivos diretamente dentro do Codespace e commit e push suas mudanças quando terminar.
 
-## What technologies are used for this project?
+## Quais tecnologias são usadas neste projeto?
 
-This project is built with:
+Este projeto foi construído com:
 
 - Vite
 - TypeScript
@@ -60,14 +76,14 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Como posso fazer deploy deste projeto?
 
-Simply open [Lovable](https://lovable.dev/projects/f56c589d-e6c8-4b79-906d-6409beb898b9) and click on Share -> Publish.
+Use um serviço de hospedagem como Vercel, Netlify ou GitHub Pages para fazer deploy desta aplicação React.
 
-## Can I connect a custom domain to my Lovable project?
+## Posso conectar um domínio personalizado a este projeto?
 
-Yes, you can!
+Sim, você pode!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Para conectar um domínio, configure-o nas configurações do seu provedor de hospedagem.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Para mais informações, consulte a documentação do seu provedor de hospedagem.

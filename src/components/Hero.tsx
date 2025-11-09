@@ -27,7 +27,7 @@ export const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          🚀 AGENDAR DEMONSTRAÇÃO
+          AGENDAR DEMONSTRAÇÃO AGORA
         </a>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 max-w-4xl mx-auto">
